@@ -3,7 +3,7 @@ import {Bar} from 'react-chartjs-2';
 
 function EachCountry(props) {
 
-    const [country, setCountry] = ""
+    // const [country, setCountry] = ""
 
 
 

@@ -5,7 +5,7 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import { Public } from '@material-ui/icons';
 
-import DailyUpdate from './dailyUpdate'
+// import DailyUpdate from './dailyUpdate'
 
 const useStyles = makeStyles({
   root: {
@@ -24,7 +24,7 @@ export default function FootNav({screenConfig}) {
   return (
     <BottomNavigation
       value={screenConfig[0]}
-      onChange={(event, newValue) => {
+      onChange={(_, newValue) => {
           console.log(newValue)
           screenConfig[1](newValue);
       }}
