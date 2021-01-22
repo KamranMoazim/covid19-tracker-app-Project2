@@ -16,7 +16,7 @@ function EachCountry(props) {
             setEachCountryData(data)
         }
         getData();
-    }, [])
+    }, [forEachCountryDataUrl])
 
 
     const data = eachCountryData["data"]
